@@ -13,3 +13,16 @@ $(document).ready(function(){
         })
     })
 })
+
+
+$(window).on('load',function(){
+      $.instagramFeed({
+        'username':'g1alexander',
+        'container':"#instagram-feed-demo",
+        'display_profile':true,
+        'display_biography':true,
+        'items': 20,
+        'display_igtv':false
+      });
+    });
+    
